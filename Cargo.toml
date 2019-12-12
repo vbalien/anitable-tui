@@ -1,0 +1,21 @@
+[package]
+name = "anitable-tui"
+version = "0.1.0"
+authors = ["Jisu Kim <vbalien@live.jp>"]
+edition = "2018"
+doc = false
+description = """
+애니편성표 TUI
+"""
+keywords = ["tui", "anissia", "anime"]
+repository = "https://github.com/vbalien/anitable-tui"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+anitable = "0.1"
+tokio = "=0.2.0-alpha.6"
+tui = "0.7"
+termion = "1.5"
+failure = "0.1"
+chrono = "0.4"
