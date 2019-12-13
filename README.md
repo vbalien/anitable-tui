@@ -14,13 +14,13 @@ $ cargo install anitable-tui
 $ anitable-tui
 ```
 
-## 빌드
+### 빌드
 저장소를 클론하고 다음을 실행
 ```bash
 $ cargo build
 ```
 
-## 실행
+### 실행
 ```bash
 $ cargo run
 ```
